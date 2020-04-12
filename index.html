@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Portifólio de projetos e apresentação de Josué de Paulo Viana.">
     <meta name="author" content="Josué de Paulo Viana">
@@ -21,174 +21,217 @@
     <!-- Fonts & Bootstrap de fora -->
     <script src="https://kit.fontawesome.com/982d993f59.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js">
-    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;600&family=Rajdhani:wght@500&display=swap" rel="stylesheet">    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;600&family=Rajdhani:wght@500&display=swap"
+          rel="stylesheet">
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 </head>
 
 <body>
 <nav class="navbar navbar-expand-lg fixed-top py-3">
     <div class="container"><img src="img/logo.png" alt="" height="50px">
-        <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+        <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
         <div id="navbarSupportedContent" class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item"><a href="#sobre" class="nav-link text-uppercase font-weight-bold">Sobre</a></li>
-                <li class="nav-item"><a href="#projetos" class="nav-link text-uppercase font-weight-bold">Projetos</a></li>
-                <li class="nav-item"><a href="#footer" class="nav-link text-uppercase font-weight-bold">Contatos</a></li>
+                <li class="nav-item"><a href="#projetos" class="nav-link text-uppercase font-weight-bold">Projetos</a>
+                </li>
+                <li class="nav-item"><a href="#janelaPopup" role="button"
+                                        class="nav-link text-uppercase font-weight-bold"
+                                        data-toggle="modal">Currículo</a></li>
+                <li class="nav-item"><a href="#footer" class="nav-link text-uppercase font-weight-bold">Contatos</a>
+                </li>
             </ul>
         </div>
     </div>
 </nav>
-    <!-- Header -->
-    <a id="sobre"></a>
-    <div class="intro-header">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-message">
-                        <h1>Olá, meu nome é Josué!</h1>
-                        <img src="img/eu2.png" alt="Minha foto." height="200" width="200">
-                        <h3>Eu atuo como designer e desenvolvedor.<br></h3>
-                        <div id="apresentacao" class="container">
-                            <h4>Atualmente resido em Brasilia, aceito participar de projetos remotos ou como freelancer.
+<!-- Header -->
+<a id="sobre"></a>
+<div class="intro-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="intro-message">
+                    <h1>Olá, meu nome é Josué!</h1>
+                    <img src="img/eu2.png" alt="Minha foto." height="200" width="200">
+                    <h3>Eu atuo como designer e desenvolvedor.<br></h3>
+                    <div id="apresentacao" class="container">
+                        <h4>Atualmente resido em Brasilia, aceito participar de projetos remotos ou como freelancer.
                             Meus conhecimentos que vão desde HTML + CSS + Javascript até PHP, Jquery e REACT
                             com um pouco de MySQL, dentre outros.</h4>
-                        </div>
-                        <ul class="list-inline intro-social-buttons">
-                                <a href="https://www.instagram.com/peixe_jp/" target="_blank"><i class="fab fa-instagram-square fa-4x"></i></a>
-                                <a href="https://github.com/DeoRetr0" target="_blank"><i class="fab fa-github-square fa-4x"></i></i></a>
-                                <a href="https://www.linkedin.com/in/josue-viana-dev17278/" target="_blank"><i class="fab fa-linkedin fa-4x "></i></a>
-                        </ul>
-                        <hr class="intro-divider">
                     </div>
-                </div>
-            </div>
-        </div>
-        <!-- /.container -->
-    </div>
-    <!-- /.intro-header -->
-    <!-- Conteúdo -->
-
-	<a id="projetos"></a>
-    <div class="content-section-a">
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">ATOM<br>Rede Social</h2>
-                    <p class="lead">ATOM é um projeto de rede social que começou seu desenvolvimento em 2019, no inicio do meu curso de Sistemas para Internet.<br>Ele utiliza Bootstrap, PHP, JavaScript e MySQL.</br></p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/atom.svg" alt="Logomarca ATOM">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-a -->
-
-    <div class="content-section-b">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">a Brasileira!<br>Site de Pizzaria - 2019</h2>
-                    <p class="lead">Projeto desenvolvido junto a CodaMais+ - Empresa Junior do IFB - para servir como
-                        exemplo de site. O site foi construido com HTML/CSS/JS, o conteúdo é carregado dinamicamente
-                        por meio de requisições AJAX.
-                    </p>
-                    <a href="https://deoretr0.github.io/Pizzaria/" target="_blank"><button type="button" class="btn btn-dark btn-lg">Visitar Site</button></a>
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                   <img class="img-responsive" src="img/a_brasileira.png" alt="Banner de 'a Brasileira!'">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-b -->
-
-    <div class="content-section-a">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Bingo!<br>Plataforma de Busca</h2>
-                    <p class="lead">Projeto 3</p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/projeto3.jpg" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-a -->
-
-	
-    <!-- Footer -->
-    <footer id="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <ul class="list-inline">
-                        <h1>👇 Me siga nas redes sociais </h1>
-                        <br>
-                        <li>
-                            <a href="https://www.instagram.com/peixe_jp/" target="_blank"><i class="fab fa-instagram-square fa-2x"></i></a>
-                            <a href="https://github.com/DeoRetr0" target="_blank"><i class="fab fa-github-square fa-2x"></i></i></a>
-                            <a href="https://www.linkedin.com/in/josue-viana-dev17278/" target="_blank"><i class="fab fa-linkedin fa-2x "></i></a>
-                        </li>
+                    <hr class="intro-divider">
+                    <ul class="list-inline intro-social-buttons">
+                        <a href="https://github.com/DeoRetr0" target="_blank"><i class="fab fa-github fa-4x"></i></a>
+                        <a href="https://www.linkedin.com/in/josue-viana-dev17278/" target="_blank"><i
+                                class="fab fa-linkedin-in fa-4x"></i></a>
                     </ul>
                 </div>
-                <div class="col-lg-6">
-                    <h1>Fale Comigo 💻</h1>
-                    <form action="https://formspree.io/mbjkprjd" method="POST">
-                        <div class="form-group">
-                            <input type="text" name="Name" id="nome" class="form-control"
-                                   placeholder="Qual o seu nome?"/>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" name="E-mail" id="email" class="form-control"
-                                   placeholder="Insira seu email..."/>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" name="Assunto" id="assunto" class="form-control"
-                                   placeholder="Assunto"/>
-                        </div>
-                        <div class="form-group">
-                                    <textarea name="Mensagem" id="mensagem" class="form-control"
-                                              placeholder="O que quer nos dizer?"></textarea>
-                        </div>
-                        <div class="status"></div>
-                        <button type="submit" id="enviar" class="btn btn-big">
-                            <i class="fa fa-envelope"></i>
-                            Enviar
-                        </button>
-                    </form>
-                </div>
             </div>
-            <p class="copyright text-muted small">Copyright &copy; Josué de Paulo Viana <span class="footer-menu-divider"></span></p>
-            <div>Logo feito com <a href="https://www.designevo.com/logo-maker/" title="Free Online Logo Maker">DesignEvo</a></div>
         </div>
-    </footer>
+    </div>
+    <!-- /.container -->
+</div>
+<!-- /.intro-header -->
+<!-- Conteúdo -->
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+<a id="projetos"></a>
+<div class="content-section">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-lg-offset-1  col-sm-6">
+                <hr class="section-heading-spacer">
+                <div class="clearfix"></div>
+                <h2 class="section-heading">ATOM<br>Rede Social</h2>
+                <div class="faixa">
+                    <p class="sobconstrucao"><strong>Site em Construção!</strong></p>
+                </div>
+                <ul class="lead">
+                    <li>Bootstrap 4</li>
+                    <li>PHP</li>
+                    <li>Laravel</li>
+                    <li>MySQL</li>
+                </ul>
+                <a href="https://thesn.herokuapp.com/" target="_blank">
+                    <button type="button" class="btn btn-dark btn-lg"><i class="fas fa-desktop"></i> Visitar Site
+                    </button>
+                </a>
+                <a href="https://github.com/DeoRetr0/thesn" target="_blank">
+                    <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-github"></i> Ver Código
+                    </button>
+                </a>
+            </div>
+            <div class="col-lg-5 col-sm-6">
+                <img class="gif" src="img/atom.gif" alt="Logomarca ATOM">
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+</div>
+<div class="content-section">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                <hr class="section-heading-spacer">
+                <div class="clearfix"></div>
+                <h2 class="section-heading">a Brasileira!<br>Site de Pizzaria - 2019</h2>
+                <ul class="lead">
+                    <li>Bootstrap 4</li>
+                    <li>AJAX</li>
+                </ul>
+                <a href="https://deoretr0.github.io/Pizzaria/" target="_blank">
+                    <button type="button" class="btn btn-dark btn-lg"><i class="fas fa-desktop"></i> Visitar Site
+                    </button>
+                </a>
+                <a href="https://github.com/DeoRetr0/Pizzaria" target="_blank">
+                    <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-github"></i> Ver Código</button>
+                </a>
+            </div>
+            <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                <img class="gif" src="img/brasileira.gif">
+            </div>
+        </div>
+    </div>
+</div>
+<!--
+
+<div class="content-section-a">
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-5 col-sm-6">
+                <hr class="section-heading-spacer">
+                <div class="clearfix"></div>
+                <h2 class="section-heading">Bingo!<br>Plataforma de Busca</h2>
+                <p class="lead">Projeto 3</p>
+            </div>
+            <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                <img class="img-responsive" src="img/projeto3.jpg" alt="">
+            </div>
+        </div>
+
+    </div>
+</div>
+-->
+<!-- MODAL - CURRICULO -->
+<div id="janelaPopup" class="modal fade" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Meu Currículo</h5>
+                <button type="button" class="fechar_hover close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="clearfix modal-body">
+                <object data="CV.pdf" type="application/pdf" width="100%" height="100%">
+                    <p>Oops! Parece que não deu certo, mas você pode baixa-lo abaixo.</p>
+                    <p><a href="CV.pdf" download>Baixar Currículo</a></p>
+                </object>
+            </div>
+            <div class="modal-footer">
+                <a href="CV.pdf" download>
+                    <button type="button" class="btn btn-info">Baixar Currículo</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <h1>Fale Comigo 💻</h1>
+        <form action="https://formspree.io/mbjkprjd" method="POST">
+            <div class="form-group">
+                <input type="text" name="Name" id="nome" class="form-control"
+                       placeholder="Qual o seu nome?"/>
+            </div>
+            <div class="form-group">
+                <input type="email" name="E-mail" id="email" class="form-control"
+                       placeholder="Insira seu email..."/>
+            </div>
+            <div class="form-group">
+                <input type="text" name="Assunto" id="assunto" class="form-control"
+                       placeholder="Assunto"/>
+            </div>
+            <div class="form-group">
+                                    <textarea name="Mensagem" id="mensagem" class="form-control"
+                                              placeholder="O que quer me dizer?"></textarea>
+            </div>
+            <div class="status"></div>
+            <button type="submit" id="enviar" class="btn btn-big">
+                <i class="fa fa-envelope"></i>
+                Enviar
+            </button>
+        </form>
+        <p class="copyright text-muted small">Copyright &copy; Josué de Paulo Viana <span
+                class="footer-menu-divider"></span>
+        </p>
+        <div>Logo feito com <a href="https://www.designevo.com/logo-maker/" title="Free Online Logo Maker">DesignEvo</a>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
 </body>
 </html>
