@@ -138,9 +138,11 @@ body, html {
 }
 
 .gif {
-    margin-top: 10px;
+    margin-top: 20px;
     width: 100%;
     height: 100%;
+    padding: 5px;
+
 }
 
 .section-heading {
@@ -287,4 +289,8 @@ footer .fab {
     color: black !important;
     transform: scale(1.35);
     opacity: 1;
+}
+
+#cont-div{
+    color: whitesmoke;
 }
