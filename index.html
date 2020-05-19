@@ -79,8 +79,7 @@
 <!-- Conteúdo -->
 
 <a id="projetos"></a>
-<div class="content-section">
-
+<div class="content-section" style="background-color: lightgrey">
     <div class="container">
         <div class="row">
             <div class="col-lg-5 col-lg-offset-1  col-sm-6">
@@ -100,7 +99,7 @@
                     <button type="button" class="btn btn-dark btn-lg"><i class="fas fa-desktop"></i> Visitar Site
                     </button>
                 </a>
-                <a href="#" readonly>
+                <a readonly>
                     <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-github"></i> Código Privado
                     </button>
                 </a>
@@ -109,10 +108,7 @@
                 <img class="gif" src="img/atom.gif" alt="Logomarca ATOM">
             </div>
         </div>
-
     </div>
-    <!-- /.container -->
-
 </div>
 <div class="content-section">
     <div class="container">
@@ -120,10 +116,11 @@
             <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                 <hr class="section-heading-spacer">
                 <div class="clearfix"></div>
-                <h2 class="section-heading">a Brasileira!<br>Site de Pizzaria - 2019</h2>
+                <h2 class="section-heading">A Brasileira!<br>Site de Pizzaria - 2019</h2>
                 <ul class="lead">
                     <li>Bootstrap 4</li>
                     <li>AJAX</li>
+                    <li>Chatbot</li>
                 </ul>
                 <a href="https://deoretr0.github.io/Pizzaria/" target="_blank">
                     <button type="button" class="btn btn-dark btn-lg"><i class="fas fa-desktop"></i> Visitar Site
@@ -139,27 +136,36 @@
         </div>
     </div>
 </div>
-<!--
-
-<div class="content-section-a">
-
+<div class="content-section" style="background-color: lightgrey">
     <div class="container">
-
         <div class="row">
-            <div class="col-lg-5 col-sm-6">
+            <div class="col-lg-5 col-lg-offset-1  col-sm-6">
                 <hr class="section-heading-spacer">
                 <div class="clearfix"></div>
-                <h2 class="section-heading">Bingo!<br>Plataforma de Busca</h2>
-                <p class="lead">Projeto 3</p>
+                <h2 class="section-heading">Glossário Terminológico da COVID-19 <br>
+                Projeto feito junto a Codamais - 2020</h2>
+                <ul class="lead">
+                    <li>Materialize</li>
+                    <li>NodeJs</li>
+                    <li>PHP</li>
+                    <li>Javascript</li>
+                    <li>MySQL</li>
+                </ul>
+                <a href="http://covid19.lexic.com.br/" target="_blank">
+                    <button type="button" class="btn btn-dark btn-lg"><i class="fas fa-desktop"></i> Visitar Site
+                    </button>
+                </a>
+                <a readonly>
+                    <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-github"></i> Código Privado
+                    </button>
+                </a>
             </div>
-            <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                <img class="img-responsive" src="img/projeto3.jpg" alt="">
+            <div class="col-lg-5 col-sm-6">
+                <img class="gif" src="img/glossario.gif" alt="Paginas do glossario">
             </div>
         </div>
-
     </div>
 </div>
--->
 <!-- MODAL - CURRICULO -->
 <div id="janelaPopup" class="modal fade" tabindex="-1">
     <div class="modal-dialog">
@@ -169,13 +175,13 @@
                 <button type="button" class="fechar_hover close" data-dismiss="modal">&times;</button>
             </div>
             <div class="clearfix modal-body">
-                <object data="CV.pdf" type="application/pdf" width="100%" height="100%">
+                <object data="CV_Josue_Viana.pdf" type="application/pdf" width="100%" height="100%">
                     <p>Oops! Parece que não deu certo, mas você pode baixa-lo abaixo.</p>
                     <p><a href="CV.pdf" download>Baixar Currículo</a></p>
                 </object>
             </div>
             <div class="modal-footer">
-                <a href="CV.pdf" download>
+                <a href="CV_Josue_Viana.pdf" download>
                     <button type="button" class="btn btn-info">Baixar Currículo</button>
                 </a>
             </div>
@@ -184,7 +190,7 @@
 </div>
 
 <!-- Footer -->
-<footer>
+<footer id="footer">
     <div class="container">
         <h1>Fale Comigo 💻</h1>
         <form action="https://formspree.io/mbjkprjd" method="POST">
@@ -213,7 +219,7 @@
         <p class="copyright text-muted small">Copyright &copy; Josué de Paulo Viana <span
                 class="footer-menu-divider"></span>
         </p>
-        <div>Logo feito com <a href="https://www.designevo.com/logo-maker/" title="Free Online Logo Maker">DesignEvo</a>
+        <div style="text-align: center; font-size: 10px">Logo feito com <a href="https://www.designevo.com/logo-maker/" title="Free Online Logo Maker">DesignEvo</a>
         </div>
     </div>
 </footer>
@@ -231,6 +237,5 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-
 </body>
 </html>
